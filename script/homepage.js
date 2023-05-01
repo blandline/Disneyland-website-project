@@ -12,8 +12,8 @@ function randommsg(){
 }
 
 var vid_array=[
-    "https://personal.cs.cityu.edu.hk/~cs2204/video/Castle.mp4",
-    "https://personal.cs.cityu.edu.hk/~cs2204/video/Musical_Journey.mp4"
+    "../videos/Castle.mp4",
+    "../videos/Musical_Journey.mp4"
 ]
 var vid_count = 1;
 var vid=document.getElementById('internalvid');

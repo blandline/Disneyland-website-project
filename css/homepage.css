@@ -1,0 +1,90 @@
+#titleandimage {
+    margin-left: 33%;
+    overflow: auto;
+}    
+
+#titleimage{
+    float: left;
+    margin-right:10px;
+}
+
+#titleheading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    overflow:auto;
+}
+#welcome{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#navigation{
+    float: left;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding-left: 2px;
+    
+}
+main{
+
+    display:flex;
+    justify-content: center;
+}
+#promotion_information_block{
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+
+
+.labels, .formcontent{
+
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    margin-left: 17%;
+    justify-content: center;
+    
+}
+.formcontent{
+    width:30%;
+}
+.formarea{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.booking-info-form-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.resetbutton,.availibilitybutton{
+
+    margin: auto;
+    width: 100%;
+    padding:5px 20px 5px 20px;
+}
+#checkavail,#resett{
+    width: 100%;
+}
+footer {
+    position: absolute;
+    padding: 10px;
+}
+
+#contentheading{
+    margin-top: 5px;
+    font-size: large;
+    font-weight: bold;
+
+}

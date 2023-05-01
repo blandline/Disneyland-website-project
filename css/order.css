@@ -1,0 +1,181 @@
+#titleandimage {
+    margin-left: 33%;
+    overflow: auto;
+
+
+}    
+
+#titleimage{
+    float: left;
+    margin-right:10px;
+}
+
+#titleheading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    overflow:auto;
+}
+#welcome{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.menucontainer{ 
+    width: 78%;
+    float: left;
+}
+
+#menutitle{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px ;
+    width: 98%;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding: 1%;
+}
+
+/* to specify the width of the menu item block */
+
+#menuitems {
+    width: 100%;
+    float: left;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/* to deisgn the form headings */
+
+.formheadings{
+    float:left;
+    text-align: center;
+    border: 1px solid black;
+    width: 32%;
+    background-color: grey;
+    transition: background-color 0.5s;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    border-top-left-radius:10px ;
+    text-align: center;
+    border-top:0.5px solid black;
+    border-right: 0.5px solid black;
+    border-left:0.5px solid black;
+}
+.formheadings:hover{
+    background-color: white;
+}
+
+/* To make the forms display insivisble and remove the area of the forms as well */
+
+.orderform{
+    display: None;
+}
+
+/* To align the form fields and form image in the desired alignment */
+
+label, button{
+    display: block;
+}
+
+.formfields {
+    float: left;
+}
+
+.formimage {
+    float: left;
+}
+
+/* To change dimension of seperate forms */
+
+.seperateform {
+    
+    float: left;
+    width: 32%;
+}
+
+
+/* For Showing different forms based on specific hover's on headings */
+
+#ticketheading:hover ~ #ticket {
+    display: block;
+}
+
+#ticket:hover {
+    display: block;
+    border: 1px solid black;
+}
+
+#diningheading:hover~#dining {
+    display: block;
+}
+
+#dining:hover {
+    display: block;
+}
+
+#hotelheading:hover~#hotel {
+    display: block;
+}
+
+#hotel:hover {
+    display: block;
+}
+
+
+/* css for ordered items block */
+#ordereditems {
+    float: right;
+}
+
+
+#ordereditems {
+    width: 21.5%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+table {
+    font-size: 14px;
+    width: 100%;
+}
+
+th, td {
+    padding: 5px;
+    background-color: grey;
+}
+
+#tabledescription {
+    width: 80%;
+    text-align: left;
+}
+
+#tabletotal {
+    text-align: right;
+}
+
+#tableqty,  #tableamount {
+    text-align: right;
+}
+
+#undo {
+    text-decoration: none;
+    color:black;
+}
+
+/* footer to stay in absolute position*/
+footer {
+    position: absolute;
+    top: 600px;
+    padding: 10px;
+}
+
+

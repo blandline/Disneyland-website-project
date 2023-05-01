@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/order.css">
+    <link rel="stylesheet" href="../css/printOrder.css" media="print">    
+    <title>Order Page</title>
+</head>
+<body>
+    <header>
+        <div id = "titleandimage"> 
+            <div id = "titleimage">
+                <a href = "../html/index.html">
+                    <img src="../images/disneylandlogo.png" alt="Disneyland logo">
+                </a>
+            </div>
+        
+            <div id = "titleheading">
+                DisneyLand           
+            </div>
+        </div>
+    </header>
+    <div id="welcome">
+        <p>Welcome</p>
+    </div>
+    <main>
+        <div class= "menucontainer">
+            <div id = "menutitle">
+                <h2>Menu</h2>
+            </div>
+            
+            <div id="menuitems">
+                <!-- <div class = "menuheadings"> -->
+                    <div class="formheadings" id="ticketheading" onclick=tickbloc()>
+                        <p>Tickets</p>
+                    </div>
+                    <div class="formheadings" id="diningheading" onclick=dinbloc()>
+                        <p>Dinings</p>
+                    </div>
+                    <div class="formheadings" id="hotelheading" onclick=hotbloc()>
+                        <p>Hotels</p>
+                    </div>
+                <!-- </div> -->
+                
+                <div  class = "orderform" id="ticket">
+                    <form action="#" id="ticket1" class="seperateform">
+                        <div class = "formimage">
+                            <img src="../images/ticket-1.jpeg" alt="ticket_1 image">
+                        </div>
+                        <div class = "formfields">
+                            <label for="1_day_ticket">1-Day Ticket</label>
+                            <input type="number" id="1_day_ticket" min="0">
+                            <button class="addbutton" onclick=add_row1()>Add</button>
+                        </div>
+                        
+                    </form>
+                    <form action="#" id="ticket2" class="seperateform">
+                        <div class = "formimage">
+                            <img src="../images/ticket-2.jpeg" alt="ticket_2 image">
+                        </div>
+                        <div class = "formfields">
+                            <label for="1_day_ticketc">1-Day Ticket(child)</label>
+                            <input type="number" id="1_day_ticketc" min="0">
+                            <button class="addbutton" onclick=add_row2()>Add</button>
+                        </div>
+                        
+                    </form>
+                    <form action="#" id="ticket3" class="seperateform">
+                        <div class = "formimage">
+                            <img src="../images/ticket-3.jpeg" alt="ticket_3 image">
+                        </div>
+                        <div class = "formfields">
+                            <label for="2_Day_Ticket">2-Day Ticket</label>
+                            <input type="number" id="2_Day_Ticket" min="0">
+                            <button class="addbutton" onclick=add_row3()>Add</button> 
+                        </div>
+                    </form>
+                </div>
+
+                <div class = "orderform" id="dining">
+                    <form action="#" id="dining1" class="seperateform">
+                        <div class = "formimage">
+                            <img src="../images/dining-1.jpeg" alt="dining_1 image">
+                        </div>
+                        <div class = "formfields">
+                            <label for="explorerbuffet">Explorer's Semi Buffet</label>
+                            <input type="number" id="explorerbuffet" min="0">
+                            <button class="addbutton" onclick=add_row4() >Add</button>
+                        </div>
+                    </form>
+                    
+                    <form action="#" id="dining2" class="seperateform">
+                        <div class = "formimage">
+                            <img src="../images/dining-2.jpeg" alt="dining_2 image">
+                        </div>
+                        <div class = "formfields">
+                            <label for="3in1park">3-in-1 Park Meal Voucher</label>
+                            <input type="number" id="3in1park" min="0">
+                            <button class="addbutton" onclick=add_row5()>Add</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class = "orderform" id="hotel">
+                    <form action="#" id="hotel1" class="seperateform">    
+                        <div class = "formimage">
+                            <img src="../images/hotel-1.jpeg" alt="hotel_1 image">                        
+                        </div>
+                        <div class = "formfields">
+                            <label for="Standard_room">Standard room</label>
+                            <input type="number" id="Standard_room" min="0">
+                            <button class="addbutton" onclick=add_row6()>Add</button>
+                        </div>
+                    </form>
+                    <form action="#" id="hotel2" class="seperateform"> 
+                        <div class = "formimage">
+                            <img src="../images/hotel-2.jpeg" alt="hotel_2 image">
+                        </div>
+                        <div class = "formfields">
+                            <label for="deluxe_room">Deluxe room</label>
+                            <input type="number" id="deluxe_room" min="0">
+                            <button class="addbutton" onclick=add_row7()>Add</button>
+                        </div>
+                    </form>
+
+                    <form action="#" id="hotel3" class="seperateform">
+                        <div class = "formimage">
+                            <img src="../images/hotel-3.jpeg" alt="hotel_3 image">
+                        </div>
+                        <div class = "formfields">
+                            <label for="Sea_view">Sea view room</label>
+                            <input type="number" id="Sea_view" min="0">
+                            <button class="addbutton" onclick=add_row8()>Add</button> 
+                        </div>
+                    </form>
+
+                    <form action="#" id="hotel4" class="seperateform">
+                        <div class = "formimage">
+                            <img src="../images/hotel-4.jpeg" alt="hotel_4 image">
+                        </div>
+                        <div class = "formfields">
+                            <label for="kingdom">Kingdom Club room</label>
+                            <input type="number" id="kingdom" min="0">
+                            <button class="addbutton" onclick=add_row9()>Add</button>
+                        </div>
+                        
+                    </form>
+                </div>            
+            </div>
+        </div>
+        <div id="ordereditems">
+            <h3>Ordered items</h3>
+            <h5>1 Feb 2023 13:25</h5>
+
+            <table id="orderitemtable" >
+                <caption>Table:4-No. of Guests 3</caption>
+                
+                <tr>
+                    <th id = "tabledescription">Description</th>
+                    <th id = "tableqty">Qty</th>
+                </tr>
+
+                <tr>
+                    <td id = "tabletotal">Total</td>
+                    <td id = "tableamount">0</td>
+                </tr>
+            </table>
+            <a id = "undo" href="#" onclick=delete_row()>Undo</a> 
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer_info">
+            <p>@CityU  2023  –  sources  of  images  and  text  from  official  website  of  Hong  Kong 
+                Disneyland, Wikipedia and Courtesy of Icon pack by Icons8 – designed by SARBULAND Muhammad
+            </p>
+            <a href="./design.html">Design Page</a>
+        </div>
+    </footer>
+    <script src="../script/orderpage.js"></script>
+</body>
+</html>

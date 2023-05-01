@@ -1,0 +1,28 @@
+#titleandimage {
+    margin-left: 33%;
+    overflow: auto;
+
+
+
+}    
+
+#titleimage{
+    float: left;
+    margin-right:10px;
+}
+
+#titleheading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    overflow:auto;
+}
+#welcome{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+footer {
+    position: absolute;
+    padding: 10px;
+}

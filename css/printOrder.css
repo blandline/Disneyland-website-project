@@ -1,0 +1,7 @@
+#menuitems, #menutitle, footer{
+    display: None;
+}
+
+#ordereditems {
+    width: 100%;
+}
